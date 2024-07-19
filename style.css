@@ -1,0 +1,45 @@
+
+.form{
+    font-size: 15px;
+    padding: 15px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    text-align: left;
+    background-image: url(pexels-apasaric-325185.jpg);
+    opacity: 95%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+input{
+    width: 50%;
+    height: 40px;
+}
+button{
+    height: 40px;
+    width: 200px;
+    font-weight: bold;
+    border:none;
+    background-color: white;
+}
+h1{
+    font-family: "Bona Nova SC", serif;
+    font-size: 60px;
+    font-weight: bolder;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+input{
+    border-radius: 10px;
+    border: none;
+}
+input:focus{
+    background-color: rgb(247, 243, 243);
+}
+
